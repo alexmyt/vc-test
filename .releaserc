@@ -29,7 +29,7 @@
     [
       "@saithodev/semantic-release-backmerge",
       {
-        "backmergeBranches": ["develop"],
+        "backmergeBranches": [{"from": "main", "to": "develop"}],
         "allowSameBranchMerge": true
       }
     ]

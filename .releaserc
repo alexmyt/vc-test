@@ -1,7 +1,12 @@
 {
   "branches": [
-    "main"
+    "main",
+    {
+      "name": "develop",
+      "prerelease": true
+    }
   ],
+  "preset": "angular",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",

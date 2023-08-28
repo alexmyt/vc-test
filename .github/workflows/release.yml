@@ -41,7 +41,7 @@ jobs:
           createGithubReleases: false
           commit: Version packages [skip ci]
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SRB_TOKEN }}
 
       - name: Release
         env:

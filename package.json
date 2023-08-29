@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version:dev": "changeset version --snapshot dev"
+    "version:dev": "changeset version --snapshot dev",
+    "version": "changeset version",
+    "release": "changeset tag"
   },
   "keywords": [],
   "author": "",

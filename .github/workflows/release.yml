@@ -38,6 +38,6 @@ jobs:
         uses: changesets/action@v1
         with:
           commit: Version packages [skip ci]
-          version: npm rin version:dev
+          version: npm run version:dev
         env:
           GITHUB_TOKEN: ${{ secrets.SRB_TOKEN }}

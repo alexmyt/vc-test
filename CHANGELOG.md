@@ -1,5 +1,11 @@
 # vc-test
 
+## 1.3.0-dev-20230829131140
+
+### Patch Changes
+
+- [#22](https://github.com/alexmyt/vc-test/pull/22) [`19f8add`](https://github.com/alexmyt/vc-test/commit/19f8add2190ada298f50ce46f424d081fb2f4f90) Thanks [@alexmyt](https://github.com/alexmyt)! - Fix changeset actions
+
 ## 1.3.0-dev-20230829125414
 
 ### Minor Changes

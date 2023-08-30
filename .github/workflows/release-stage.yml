@@ -33,8 +33,10 @@ jobs:
       - name: Install dependencies
         run: npm clean-install
 
-
       - name: Create Release Pull Request
         uses: changesets/action@v1
+        with:
+          commit: Version packages [skip ci]
+          publish: npx changeset tag
         env:
           GITHUB_TOKEN: ${{ secrets.SRB_TOKEN }}

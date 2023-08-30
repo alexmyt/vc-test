@@ -36,8 +36,5 @@ jobs:
 
       - name: Create Release Pull Request
         uses: changesets/action@v1
-        with:
-          commit: Version packages [skip ci]
-          version: npm run version:dev
         env:
           GITHUB_TOKEN: ${{ secrets.SRB_TOKEN }}

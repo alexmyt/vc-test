@@ -8,6 +8,7 @@ jobs:
   validate:
     name: Validate changeset is exists
     runs-on: ubuntu-latest
+    if: !startsWith( ${{github.head_ref}}, 'changeset-release/')
     permissions:
       contents: read
     steps:

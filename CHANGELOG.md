@@ -1,5 +1,11 @@
 # vc-test
 
+## 1.4.0
+
+### Minor Changes
+
+- [#34](https://github.com/alexmyt/vc-test/pull/34) [`db9cbd3`](https://github.com/alexmyt/vc-test/commit/db9cbd36665a66575ce3377ecbeca656511432aa) Thanks [@alexmyt](https://github.com/alexmyt)! - Add tags for releases
+
 ## 1.3.1
 
 ### Patch Changes

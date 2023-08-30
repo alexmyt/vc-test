@@ -1,5 +1,11 @@
 # vc-test
 
+## 1.3.1
+
+### Patch Changes
+
+- [#30](https://github.com/alexmyt/vc-test/pull/30) [`4b4d790`](https://github.com/alexmyt/vc-test/commit/4b4d7905a872a7e79e24a990c0a2e846ae0e866c) Thanks [@alexmyt](https://github.com/alexmyt)! - Add github action to check than PR contain changeset file
+
 ## 1.3.0
 
 ### Minor Changes

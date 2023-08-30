@@ -1,0 +1,28 @@
+name: PR needs have changeset
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  validate:
+    name: Validate changeset is exists
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+
+      - name: Install dependencies
+        run: npm clean-install
+
+      - name: Validete that changeset is exists
+        run: npx changeset status --since=origin/main

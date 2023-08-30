@@ -1,5 +1,11 @@
 # vc-test
 
+## 1.5.0
+
+### Minor Changes
+
+- [#37](https://github.com/alexmyt/vc-test/pull/37) [`a72bfd5`](https://github.com/alexmyt/vc-test/commit/a72bfd5cdb0927ef4cd0655cf9fc88cf5d91e194) Thanks [@alexmyt](https://github.com/alexmyt)! - Add Husky and git-hook to prevent pushing without changeset added.
+
 ## 1.4.0
 
 ### Minor Changes

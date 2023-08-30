@@ -6,7 +6,7 @@ on:
 
 jobs:
   validate:
-    name: Validete changeset
+    name: Validate changeset is exists
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -26,4 +26,4 @@ jobs:
         run: npm clean-install
 
       - name: Validete that changeset is exists
-        run: npx changeset status --since=develop
+        run: npx changeset status --since=main

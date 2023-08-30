@@ -25,4 +25,4 @@ jobs:
         run: npm clean-install
 
       - name: Validete that changeset is exists
-        run: npx changeset status --since=origin/develop
+        run: npx changeset status --since=origin/main

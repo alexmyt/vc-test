@@ -7,8 +7,8 @@
   },
   "fixed": [],
   "linked": [],
+  "ignore": [],
   "access": "restricted",
   "baseBranch": "develop",
-  "updateInternalDependencies": "patch",
-  "ignore": []
+  "updateInternalDependencies": "patch"
 }

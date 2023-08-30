@@ -1,5 +1,15 @@
 # vc-test
 
+## 1.3.0
+
+### Minor Changes
+
+- [#29](https://github.com/alexmyt/vc-test/pull/29) [`6df6a64`](https://github.com/alexmyt/vc-test/commit/6df6a64203b1a1b1bccdce8b1dc0a59a6e9f179a) Thanks [@alexmyt](https://github.com/alexmyt)! - Add index.js
+
+### Patch Changes
+
+- [#27](https://github.com/alexmyt/vc-test/pull/27) [`b148a96`](https://github.com/alexmyt/vc-test/commit/b148a96f7b063856d9b859ff4e75b321ab8ccb0d) Thanks [@alexmyt](https://github.com/alexmyt)! - New release
+
 ## 1.3.0-dev-20230829131140
 
 ### Patch Changes

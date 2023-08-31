@@ -1,5 +1,17 @@
 # vc-test
 
+## 1.5.1
+
+### Patch Changes
+
+- [#40](https://github.com/alexmyt/vc-test/pull/40) [`d9207dd`](https://github.com/alexmyt/vc-test/commit/d9207dd8f136debd8817841dbc8bc7d0331c86ac) Thanks [@alexmyt](https://github.com/alexmyt)! - Actions refactor
+
+  - Remove unused `Release` action
+
+  - Rename `released-stage` action to `changeset`
+
+- [#42](https://github.com/alexmyt/vc-test/pull/42) [`6b290f7`](https://github.com/alexmyt/vc-test/commit/6b290f763cc23a83b8ae3e2d4deaeec11da07872) Thanks [@alexmyt](https://github.com/alexmyt)! - Fix permissions
+
 ## 1.5.0
 
 ### Minor Changes
